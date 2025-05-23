@@ -38,6 +38,6 @@ end
 ----------------------------------------------------------------
 -- overrides (can be made from any other mod using this one)
 ----------------------------------------------------------------
-
-core.forceload_block = debug_callstack.get_override(core.forceload_block, "forceload_block")
+-- Examples:
+-- core.forceload_block = debug_callstack.get_override(core.forceload_block, "forceload_block")
 -- core.is_protected = debug_callstack.get_override(core.is_protected, "is_protected")
